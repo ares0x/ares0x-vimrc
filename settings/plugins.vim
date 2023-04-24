@@ -13,11 +13,14 @@ call plug#begin('~/.vim/plugged')
   Plug 'rust-lang/rust.vim' " rust 语言插件
   Plug 'majutsushi/tagbar'
   Plug 'dgryski/vim-godef'
-
+  Plug 'pangloss/vim-javascript'
+  Plug 'Valloric/YouCompleteMe'
+  
   " git
   Plug 'airblade/vim-gitgutter'
   Plug 'Xuyuanp/nerdtree-git-plugin' 
 
   " 主题，字体相关
   Plug 'morhetz/gruvbox' " 主题插件
+  Plug 'kien/rainbow_parentheses.vim'
 call plug#end()
