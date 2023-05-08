@@ -52,3 +52,5 @@ au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
+
+au InsertLeave *.go,*.md,*py,*c,*java,*shell write " 指定文件类型自动保存
