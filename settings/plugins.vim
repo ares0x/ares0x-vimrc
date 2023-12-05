@@ -15,7 +15,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'dgryski/vim-godef'
   Plug 'pangloss/vim-javascript'
   Plug 'Valloric/YouCompleteMe'
-  
+  Plug 'sbdchd/neoformat' "  
   " git
   Plug 'airblade/vim-gitgutter'
   Plug 'Xuyuanp/nerdtree-git-plugin' 
